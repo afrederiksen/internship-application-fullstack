@@ -1,6 +1,8 @@
-name = "{{project-name}}"
+name = "cf-internship"
 type = "javascript"
 account_id = ""
 workers_dev = true
-route = ""
+
+[env.production]
 zone_id = ""
+route = "worker.apf.cloud/*"
